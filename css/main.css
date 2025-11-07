@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --font-family: "Formular", sans-serif;
   --content-width: 1536px;
@@ -12,6 +16,11 @@
   --black-color: #000;
   --active-color: #6d28d9;
   --disabled-color: #ddd6fe;
+}
+
+body::selection {
+  background-color: #8b5cf6;
+  color: #ffffff;
 }
 
 .custom-checkbox__field:checked+.custom-checkbox__content::after {
